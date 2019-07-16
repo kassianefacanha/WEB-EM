@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Formulario</title>
+        
+        
+        
+        
+    </head>
+    <body>
+        <form method="post" action="form.php"> 
+        Nome: <br>
+        <input type="text" name="Nome"> <br>
+        Sobrenome: <br>
+        <input type="text" name="Sobrenome"> <br>
+        RG: <br>
+        <input type="text" name="RG"> <br>
+        CPF: <br>
+        <input type="text" name="CPF"> <br>
+        Nome do Pai: <br>
+        <input type="text" name="Nome_Pai"> <br>
+        Nome da Mãe: <br>
+        <input type="text" name="Nome_Mãe"> <br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar"> <br>
+        </form> 
+        <hr width="90%" height="5px" color="red">         
+    </body>
+</html>

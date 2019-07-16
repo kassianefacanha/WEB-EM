@@ -1,0 +1,56 @@
+<html>
+<head>
+<title>Insert title here</title>
+<script type="text/javascript"> 
+
+
+
+
+
+</script>
+</head>
+<body>
+<script>
+    var altura = 1.87;
+    var peso = 83;
+    var calimc = peso/ (altura + altura);
+    
+    if (calimc < 18.5){
+    	
+    	document.write(calimc+"Classificação Magreza");
+    	
+    }else if ((calimc > 18.5) && (calimc < 24.5)){
+    	
+    	document.write(calimc+"Classificação Saudavel");
+    	
+    }else if ((calimc > 25.0) && (calimc < 29.9)){
+	
+	    document.write(calimc+"Classificação Sobrepeso");
+    	
+    }else if ((calimc > 30.0) && (calimc < 34.9)){
+    	
+    	document.write(calimc+"Classificação Obesidade grau I");
+    	
+    }else if ((calimc > 35.0) && (calimc < 39.9)){
+    	
+    	document.write(calimc+"Classificação Obesidade grau II (severa)");
+    	
+    }else if (calimc > 40.0) {
+	
+	document.write(calimc+"Classificação Obesidade grau III (morbida)");
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>
